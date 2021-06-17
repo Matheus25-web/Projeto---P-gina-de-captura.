@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: serif;
+    
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/1103172-um-jovem-homem-levanta-a-mao-durante-uma-palestra-em-uma-oficina-gr%C3%A1tis-foto.jpg);    
+}
+.boxt{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(10, 142, 146) ;
+    text-align: center;
+}
+#texto3{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.container1{
+    position: relative;
+    max-width: 228px;
+    padding: 30px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.445);
+    float: right;
+    top: 15px;;
+    right: 15px;
+
+}
+.texto1{
+    position: relative;
+    bottom: 30px;
+}
+#email{
+    position: relative ;
+    width: 220px;
+    height: 30px;
+    bottom: 30px;
+
+   
+    
+}
+#senha{
+    position: relative;
+    width: 220px;
+    height: 30px;
+    border-radius: 1px white;
+    bottom: 20px;
+    
+    
+}
+#cidades{
+    position: relative;
+    width: 228px;
+    height: 30px;
+    border-radius: 1px;
+    bottom:10px;
+}
+#submit{
+    position: relative;
+    background-color: rgb(10, 142, 146);
+    width: 228px;
+    height: 30px;
+    bottom: 0px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+/* Aqui começa a parte de baixo do texto */
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+.foto{
+    width: 160px;
+}
+.alinhar{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.alinhar p, .alinhar h2{
+    margin-bottom: 20px;
+}
+.alinhar h3{
+    font-size: 24px;
+}
